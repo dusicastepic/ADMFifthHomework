@@ -9,10 +9,10 @@ More details about the task on the following [link](https://github.com/CriMenghi
 ![snap graph](http://yifanhu.net/GALLERY/GRAPHS/GIF_SMALL/SNAP@as-735.gif)
 
 
-1.  Download  [Wikicat hyperlink graph](https://drive.google.com/file/d/1ghPJ4g6XMCUDFQ2JPqAVveLyytG8gBfL/view?usp=sharing).  It is a reduced version of the one you find on SNAP. Every row is an edge, the two elements are the nodes (source and destination).
-2.  From [this](https://snap.stanford.edu/data/wiki-topcats.html) page download:
-	-  `wiki-topcats-categories.txt.gz`
-	-  `wiki-topcats-page-names.txt.gz`
+1. First, we have downloaded  [Wikicat hyperlink graph data](https://drive.google.com/file/d/1ghPJ4g6XMCUDFQ2JPqAVveLyytG8gBfL/view?usp=sharing).  It is a reduced version of the one on SNAP. Every row is an edge, the two elements are the nodes (source and destination).
+2.  From [this](https://snap.stanford.edu/data/wiki-topcats.html) page we downloaded:
+	-  `wiki-topcats-categories.txt.gz` (the list of the articles which belong to each category)
+	-  `wiki-topcats-page-names.txt.gz` (the names of the articles and its identification number)
 
 The main goal was to answer the following research questions:
 
