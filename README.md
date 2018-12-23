@@ -2,12 +2,33 @@
 
 In this assignment, we perform an analysis of the Wikipedia Hyperlink graph. In particular, given extra information about the categories to which an article belongs to, we are curious to rank the articles according to some criteria.
 
-For this purpose, we use the Wikipedia graph released by the SNAP group.
+For this purpose, we use the Wikipedia graph released by the SNAP group, but the reduced version.
+
+More details about the task on the following [link](https://github.com/CriMenghini/ADM-2018/blob/master/Homework_5/README.md).
 
 ![snap graph](http://yifanhu.net/GALLERY/GRAPHS/GIF_SMALL/SNAP@as-735.gif)
 
 
+1.  Download  [Wikicat hyperlink graph](https://drive.google.com/file/d/1ghPJ4g6XMCUDFQ2JPqAVveLyytG8gBfL/view?usp=sharing).  It is a reduced version of the one you find on SNAP. Every row is an edge, the two elements are the nodes (source and destination).
+2.  From [this](https://snap.stanford.edu/data/wiki-topcats.html) page download:
+	-  `wiki-topcats-categories.txt.gz`
+	-  `wiki-topcats-page-names.txt.gz`
 
+The main goal was to answer the following research questions:
+
+[RQ1] Build the graph [G=(V, E)] , where V is the set of articles and E the hyperlinks among them, and provide its basic information:
+
+* If it is direct or not
+* The number of nodes
+* The number of edges
+* The average node degree. Is the graph dense?
+
+[RQ2]
+
+1. Building Block Ranking
+    > Based on the implementation of the **shortest path** algorithm( **Breadth First Search** algorithm) compare sample number of nodes of C0-input category with all nodes in all the other Ci categories in order to build the **block ranking**. 
+
+2. Ranking nodes of each category in the created block ranking vector and selecting top 3 and finding article names for it
 
 ## The repository contains the following files:
 
