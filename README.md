@@ -10,3 +10,9 @@
       
 2. __`Homework 5 - RQ1 and RQ2.ipynb`__:
       > A notebook with all the steps: reading data and making of a graph, calculating short distance paths, building block ranking and ranking nodes of each category.
+
+
+## Authors are:
+
+*  **Dusica Stepic** 
+*  **Valerio Antonini**
